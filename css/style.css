@@ -40,6 +40,15 @@ body {
 
 /*========================== feature css start =================================*/
 
+.gray img {
+    filter: grayscale(100%);
+}
+
+.slider-img {
+    height: auto;
+    width: 100%;
+}
+
 .feature-bike-heading h1,
 .latest-news {
     font-size: 50px;
