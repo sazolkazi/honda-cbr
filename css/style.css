@@ -1,0 +1,180 @@
+/* google-font-link */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*========================== Navigation-menu css start =================================*/
+
+.bg-blue {
+    background-color: #264653;
+    height: auto;
+}
+
+.header-btn {
+    background-color: #E76F51;
+    border: none;
+}
+
+.header-btn:hover {
+    background-color: orange;
+}
+
+.banner-heading p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.banner-heading h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+/*========================== Navigation-menu css end =================================*/
+
+
+/*========================== feature css start =================================*/
+
+.feature-bike-heading h1,
+.latest-news {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.feature-bike-heading p {
+    font-size: 17px;
+    color: #E76F51;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.divider hr {
+    display: inline-block;
+    width: 70px;
+    color: #c02904;
+    margin-top: 0px;
+    height: 2px;
+}
+
+
+/*========================== feature css end =================================*/
+
+
+/*========================== Latest-news  css start =================================*/
+
+.all-body:hover {
+    box-shadow: 0px 0px 10px 3px #ddd !important;
+    transition: .3s;
+}
+
+.card-news h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card-news p,
+.user {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #6C6C6C;
+}
+
+.card-btn {
+    border-color: #E76F51;
+    color: #E76F51;
+}
+
+.card-btn:hover {
+    background-color: #E76F51;
+    color: #fff;
+    border-color: #E76F51;
+}
+
+
+/*========================== Latest-news css end =================================*/
+
+
+/*========================== happy-client css start =================================*/
+
+.client-section {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.client-section h1 span {
+    color: #0A0826;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.client-section h1 small {
+    color: #E76F51;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.happy-client img {
+    height: auto;
+    width: 45%;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: #E76F51;
+}
+
+.user-name {
+    font-size: 18px;
+    color: #23A6F0;
+}
+
+.user-title {
+    color: #252B42;
+    font-size: 18px;
+}
+
+
+/*========================== happy-client css end =================================*/
+
+
+/*========================== faq css start =================================*/
+
+.faq-img img {
+    height: auto;
+    width: 65%;
+}
+
+
+/*========================== faq css end =================================*/
+
+
+/*========================== Contact us css start =================================*/
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/*========================== Contact us css end =================================*/
